@@ -1,182 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>San Vannary - CV</title>
-    <style>
-        /* General page styling */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #080808;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 30px;
-        }
-
-        /* Header section */
-        h1 {
-            font-size: 2em;
-            margin-bottom: 10px;
-            color: #000;
-        }
-        
-        hr {
-            border: 0;
-            border-top: 1px solid #e0e0e0;
-            margin-bottom: 25px;
-        }
-
-        .main-title {
-            color: #2e8b57; /* SeaGreen color matching the image */
-            font-size: 1.2em;
-            font-weight: bold;
-            margin-bottom: 25px;
-        }
-
-        /* Top section for contact info and image */
-        .top-section {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 40px;
-        }
-
-        .contact-info p {
-            margin: 8px 0;
-            font-size: 0.95em;
-        }
-
-        .profile-image img {
-            max-width: 150px;
-            height: auto;
-            /* I've added a placeholder image URL here */
-            /* You can replace this src with the path to your actual image */
-        }
-
-        /* Section headers (Skills, Education, Experience) */
-        h2.section-title {
-            color: #2e8b57; 
-            font-size: 1.2em;
-            margin-top: 25px;
-            margin-bottom: 15px;
-        }
-
-        /* Sub-headers for school and companies */
-        .sub-title {
-            color: #0000cc; /* Blue color matching the image */
-            font-weight: bold;
-            font-size: 0.95em;
-            margin-top: 15px;
-            margin-bottom: 5px;
-        }
-
-        /* Dates */
-        .date {
-            color: #333;
-            font-size: 0.95em;
-            margin-bottom: 10px;
-        }
-
-        /* Lists */
-        ul {
-            margin-top: 5px;
-            margin-bottom: 10px;
-            padding-left: 40px;
-        }
-
-        li {
-            margin-bottom: 5px;
-        }
-
-        p {
-            margin-top: 5px;
-            margin-bottom: 15px;
-            font-size: 0.95em;
-        }
-
-        /* Footer styling */
-        footer {
-            margin-top: 50px;
-            padding: 15px;
-            background-color: #f5f5f5;
-            text-align: left;
-            font-size: 0.9em;
-            color: #555;
-            border: 1px solid #ddd;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>San Vannary - CV</title>
+  <!-- ភ្ជាប់ទៅកាន់ style.css -->
+  <link rel="stylesheet" href="002.css">
 </head>
 <body>
 
-    <h1>San Vannary</h1>
-    <hr>
+  <div class="resume-container">
+    <!-- Left Sidebar -->
+    <aside class="sidebar">
+      <div class="profile-box">
+        <img src="h1.png" alt="San Vannary" class="profile-img">
+      </div>
 
-    <div class="main-title">Junior Software Developer</div>
+      <div class="sidebar-content">
+        <section class="sidebar-section">
+          <h3 class="sidebar-title">ABOUT ME</h3>
+          <p class="sidebar-desc">
+            Enthusiastic Junior Software Developer and 3rd-year Computer Science student focused on building desktop software, robust database integrations, and efficient algorithms.
+          </p>
+        </section>
 
-    <div class="top-section">
-        <div class="contact-info">
-            <p>Date of Birth : 08.08.2006</p>
-            <p>Phnom Penh City, Jbar Ampov District, Kbal Koah</p>
-            <p>Commune, Chroy Ampil Village.</p>
-            <p>Contact : (+855) 092-277-915</p>
-            <p>Email: sanvannary1290@gmail.com</p>
+        <section class="sidebar-section">
+          <h3 class="sidebar-title">SKILLS</h3>
+          <div class="skill-category">
+            <h4>Programming</h4>
+            <p>Java, C/C++, Python, HTML, CSS</p>
+          </div>
+          <div class="skill-category">
+            <h4>Databases</h4>
+            <p>MySQL, SQL Server, MS Access (JDBC)</p>
+          </div>
+          <div class="skill-category">
+            <h4>Tools & Soft Skills</h4>
+            <p>Word, Excel, PowerPoint, Teamwork, Problem-solving</p>
+          </div>
+        </section>
+
+        <section class="sidebar-section">
+          <h3 class="sidebar-title">LANGUAGES</h3>
+          <p class="sidebar-desc"><strong>Khmer:</strong> Native</p>
+          <p class="sidebar-desc"><strong>English:</strong> Basic (Technical Reading)</p>
+        </section>
+
+        <section class="sidebar-section contact-section">
+          <h3 class="sidebar-title">CONTACT</h3>
+          <p>📍 Phnom Penh City, Chbar Ampov</p>
+          <p>📞 (+855) 092-277-915</p>
+          <p>✉️ sanvannary1290@gmail.com</p>
+          <p>🌐 www.sanvannary.com</p>
+        </section>
+      </div>
+    </aside>
+
+    <!-- Right Main Content -->
+    <main class="main-content">
+      <header class="header">
+        <div class="name-block">
+          <h2 class="first-name">SAN</h2>
+          <h1 class="last-name">VANNARY</h1>
+          <p class="job-title">JUNIOR SOFTWARE DEVELOPER</p>
         </div>
-        <div class="profile-image">
-            <!-- Replace this URL with the actual image you want to use -->
-            <img src="h1.png" alt="San Vannary Avatar"width="90%" height="90%">
+        <div class="header-decor"></div>
+      </header>
+
+      <section class="main-section">
+        <h3 class="section-title">EDUCATION</h3>
+        <div class="timeline-item">
+          <span class="bullet"></span>
+          <div class="timeline-content">
+            <h4>BACHELOR OF COMPUTER SCIENCE <span>(2024 - 2028)</span></h4>
+            <p class="sub-inst">Royal University of Phnom Penh (Currently Year 3)</p>
+          </div>
         </div>
-    </div>
+      </section>
 
-    <h2 class="section-title">Skills</h2>
-    <li>Programming Basic : Java, C/C++ , Python, HTML . </li>
-    <li>Office & Tools: Word , Excel, PowerPoint. </li>
-    <li>Databases: MySQL, Microsoft SQL Server, Microsoft Access (SQL, JDBC)</li>
-    <li>Soft Skill: Problem-solving, timely response to requests, eager to learn, and Team work. </li>
+      <section class="main-section">
+        <h3 class="section-title">ACADEMIC PROJECTS</h3>
+        <div class="timeline-item">
+          <span class="bullet"></span>
+          <div class="timeline-content">
+            <h4>JAVA GUI & MULTI-DATABASE SYSTEM</h4>
+            <ul class="project-points">
+              <li>Developed a desktop GUI using Java Swing/AWT with structured event handling.</li>
+              <li>Implemented complete CRUD operations and queries across MySQL, SQL Server, and MS Access via JDBC.</li>
+              <li>Managed connection pooling, exception handling, and relational schema normalization.</li>
+            </ul>
+          </div>
+        </div>
 
-    <h2 class="section-title">Education</h2>
-    <div class="sub-title">Royal University of Phnom Penh - Bachelor of Computer Science</div>
-    <div class="date">Expected Graduation: 2028 (Currently in Years 3)</div>
+        <div class="timeline-item">
+          <span class="bullet"></span>
+          <div class="timeline-content">
+            <h4>DATA STRUCTURES & ALGORITHMS</h4>
+            <ul class="project-points">
+              <li>Built custom Stacks, Queues, Linked Lists, and Binary Search Trees in C++ and Java.</li>
+              <li>Implemented 6 core sorting algorithms: Bubble, Selection, Insertion, Merge, Quick, and Heap Sort.</li>
+              <li>Analyzed runtime complexity and system memory allocation for each structure.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-    <h2 class="section-title">Academic Projects</h2>
-    
-    <div class="experience-block">
-        <div class="sub-title">Java GUI & Multi-Database Management System</div>
-        <ul>
-            <li>Developed a desktop Graphical User Interface (GUI) using Java Swing/AWT with interactive forms and event handling.</li>
-            <li>Implemented complete CRUD operations (Create, Read, Update, Delete) and dynamic data retrieval using structured SQL queries.</li>
-            <li>Managed database connection handling, SQL exception tracking, and table normalization.</li>
-            <li>Integrated the desktop application with relational databases including MySQL, Microsoft SQL Server, and Microsoft Access using JDBC.</li>
-        </ul>
-        <div class="sub-title">Data Structures & Sorting Algorithms</div>
-        <ul>
-            <li>Built custom Stacks, Queues, Linked Lists, and Binary Search Trees in C++ and Java.</li>
-            <li>Evaluated runtime performance and memory efficiency across different algorithm complexities.</li>
-            <li>Implemented 6 key sorting algorithms: Bubble, Selection, Insertion, Merge, Quick, and Heap Sort.</li>
-        </ul>      
-    </div>
-
-    <div class="experience-block">
-        <h2 class="section-title">Certificates</h2>
-        <ul>
-            <li>Object-Oriented Programming in C/C++ – ETEC Training Center   </li>
-            <li>UI/UX Design Fundamentals – ETEC Training Center</li>
-            <li>Networking / Cybersecurity Course – Cisco Networking Academy</li>
-        </ul>
-    </div>
-    <div class="experience-block">
-        <h2 class="section-title">Languages</h2>
-        <ul>
-            <li>Khmer: Native</li>
-            <li>Basic (Technical reading)</li>
-        </ul>
-    </div>
-    
-
-    <footer>
-        Copyright &copy; 2026 by www.sanvannary.com All rights reserved
-    </footer>
+      <section class="main-section">
+        <h3 class="section-title">CERTIFICATES</h3>
+        <div class="timeline-item">
+          <span class="bullet"></span>
+          <div class="timeline-content">
+            <h4>OBJECT-ORIENTED PROGRAMMING (C/C++)</h4>
+            <p class="sub-inst">ETEC Training Center</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="bullet"></span>
+          <div class="timeline-content">
+            <h4>UI/UX DESIGN FUNDAMENTALS</h4>
+            <p class="sub-inst">ETEC Training Center</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <span class="bullet"></span>
+          <div class="timeline-content">
+            <h4>NETWORKING / CYBERSECURITY</h4>
+            <p class="sub-inst">Cisco Networking Academy</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
 
 </body>
 </html>
